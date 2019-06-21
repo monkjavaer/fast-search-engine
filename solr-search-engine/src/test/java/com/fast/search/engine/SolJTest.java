@@ -1,25 +1,13 @@
-import org.apache.solr.client.solrj.SolrQuery;
-import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.HttpSolrClient;
-import org.apache.solr.client.solrj.response.QueryResponse;
-import org.junit.Before;
-import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+package com.fast.search.engine;
 
 import java.io.IOException;
-import java.util.List;
 
 /**
- * @Title: SolJ6Test
- * @Package: com.ceiec.gis.common.utils
- * @Description: TODO（添加描述）
- * @Author: tangquanbin
- * @Date: 2019/6/21 19:46
- * @Version: V1.0
+ * @author monkjavaer
+ * @version V1.0
+ * @date 2019/6/21 0021 22:42
  */
-public class SolJ6Test {
-
+public class SolJTest {
     private static Logger logger = LoggerFactory.getLogger(SolJ6Test.class);
 
     private final String solrUrl = "http://localhost:8080/adress-test/";
@@ -68,5 +56,4 @@ public class SolJ6Test {
             logger.info("gid:{} ; adress_name:{}; district_code:{}", adress.getGid(), adress.getAdress_name(), adress.getDistrict_code());
         }
     }
-
 }
