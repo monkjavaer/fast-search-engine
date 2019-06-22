@@ -68,6 +68,7 @@ public class SolJTest {
 
         List<Suggestion> mySuggester = suggestionsMap.get("AnalyzingSuggester");
         logger.info(mySuggester.get(0).getTerm());
+        mySuggester.get(0).getPayload();
     }
     @Test
     public void testSuggesterResponseTerms() throws Exception {
