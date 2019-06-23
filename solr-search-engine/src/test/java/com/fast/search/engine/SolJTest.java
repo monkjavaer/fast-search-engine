@@ -57,7 +57,7 @@ public class SolJTest {
     public void testSuggesterResponseObject() throws IOException, SolrServerException {
         SolrQuery query = new SolrQuery("*:*");
         query.set(CommonParams.QT, "/suggest");
-        query.set("suggest.dictionary", "AnalyzingSuggester");
+        query.set("suggest.dictionary", "AnalyzingSuggester","AnalyzingInfixSuggester");
         query.set("suggest.q", "Em");
         query.set("suggest.build", true);
         QueryRequest request = new QueryRequest(query);
