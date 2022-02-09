@@ -43,7 +43,7 @@
         <!-- fastDFS client -->
         <fastdfs-client.version>1.27</fastdfs-client.version>
         <!-- hibernate -->
-        <hibernate.version>5.3.7.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
 
         <!-- httpclient -->
         <httpclient.version>4.5.2</httpclient.version>
