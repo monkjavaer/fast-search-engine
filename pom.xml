@@ -74,7 +74,7 @@
         <guava.version>16.0</guava.version>
         <servlet.version>2.5</servlet.version>
 
-        <kafka-clients.version>0.10.0.0</kafka-clients.version>
+        <kafka-clients.version>0.10.2.2</kafka-clients.version>
 
         <netty.version>4.1.2.Final</netty.version>
 
